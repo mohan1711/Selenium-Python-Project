@@ -1,0 +1,62 @@
+XPATH:
+
+1. xpath is defined as xml path.
+2. xpath is a syntax or a language used to find any element in any web page using the xml path expression.
+3. xpath is used to find the location of any web element in a web page using HTML DOM structure.
+4. xpath can be used to navigate through elements and attributes in DOM(Document object model).
+5. xpath is an address of an element.
+6. xpath 100% finds any element even in any complex websites.
+
+Types:
+1. Absolute or Full xpath.      /html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button
+*** Navigates from to route node of HTML and comes down one by one into nodes an find our element.
+** It always starts with /
+* We use only tags or nodes
+
+
+2. Relative or Partial xpath. Syntax:
+Syntax: //tagname[@attribute='value']
+Example: //button[@name='Login']
+*** Here is directly jump to the element in the DOM.
+** It starts with //
+* We use attributes.
+
+******* HOW TO WRITE XPATHS MANUALLY
+
+
+******* Two reasons to prefer relative x path
+1. R xpath is more stable than A xpath. If developer introduces new features, then absolute xpath is broken.
+2. Also the A xpath is very lengthier and looks odd.
+
+
+Methods used along with xpath.
+
+1. and  SYNTAX: //input[@id='username' and @name='username_data'] - if both data matches the xpath will be found
+
+2. or   SYNTAX: //input[@id='pass' or @name='password'] - if any one value is matching then xpath will be found.
+
+3. text() - can be used to find the element based on the inner text. SYNTAX: //a[text()='male']
+
+4. contains() -  some pages are dynamic were some values keeps changing,
+ex: if "id" starts with password and changes to passcode dynamically. Then contains with can be used to find the
+element whose value can be anywhere in the value. SYNTAX: //*[contains(@id,'ss')]
+
+5. starts-with() - some pages are dynamic were some values keeps changing,
+ex: if "id" starts with start and changes to stop dynamically. Then starts with can be used to find the
+element whose value starts with 'st'. SYNTAX: //*[starts-with(@id,'st')]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+Selenium web driver
+
+web driver:
+1. It is a component of selenium.
+2. It is a module.
+3. Is is an API - application programming interface.
+
+Architecture of web driver:
+Selenium 3:
+selenium language bindings --> JSON wire protocol --> Browser drivers --> w3c --> Browsers
+
+Selenium 4:
+selenium language bindings --> w3c --> browsers drivers --> w3c --> Browsers
+
+*****Setup and Configuration of selenium webdriver in pycharm
+
+1. Python
+2. Pycharm
+
+*** Download browsers specific drivers. chromedriver for chrome, geckodriver for firefox
+
+*** Setup up selenium web driver
+1. Pycharm - projects settings - python intrepreter - add plugin + 'selenium'
+(or)
+2. pip install selenium in cmd prompt ( pycharm terminal )
+
+
+
+
+
+
+
+

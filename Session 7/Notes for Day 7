@@ -1,0 +1,16 @@
+Handling checkboxes: Selecting all, custom selection, un selecting
+
+Links: will have anchor tag (a) and one attribute href - hypertext reference
+
+Internal - Once link is clicked it opens the target page in same window
+External - Once link is clicked it opens the target page in new window
+Broken - NO target page inside this link, mostly used at developing stage
+
+Dropdown: It will have Select tag.
+
+Three methods to select:-
+    select_by_visible_text()
+    select_by_value()
+    select_by_index()
+
+To capture all the options, we can use a method options

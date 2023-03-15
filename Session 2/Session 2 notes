@@ -1,0 +1,20 @@
+Locators
+
+1. id
+2. name
+3. link text
+4. partial link text
+5. xpath
+6. css selector
+7. class name - finding different elements with same name - Ex: Banners in a page.
+8. tag name
+
+<input id = '123' name = 'login'> Name: </input>
+
+<a href = "link"> register </a>   #register = link text  # reg = partial link text
+
+**** CSS Selectors
+1. By tag and id
+2. By tag and class
+3. By tag and attribute
+4. By tag, class and attribute

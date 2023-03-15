@@ -1,0 +1,7 @@
+Mouse Actions: ActionChains method
+
+1. Mouse houver - move_to_element
+2. Right click  -   context_click()
+3. double click   - double_click()
+4. Drag and Drop    -   drag_and_drop(source,target)
+5. Slider   -   drag_and_drop_by_offset(element,X axis,Y axis)

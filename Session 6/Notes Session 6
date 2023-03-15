@@ -1,0 +1,20 @@
+Python time module
+time.sleep(time in s/m/h)   -
+1. But using this will make the performance of the script poor.
+2. Even after the wait and if still element is not available then it will still throw exception
+
+Wait Commands:
+
+1. implicit wait -
+pros:
+Single Statement
+performance is not reduced. Its applicable to all the elements in the script.
+
+cons:
+Even after the wait and if still element is not available then it will still throw exception
+
+
+2. explicit wait - It works based on the condition
+pros: works more effectively.
+cons: some difficulty as we need to add every where when synchronization issue occurs.
+
